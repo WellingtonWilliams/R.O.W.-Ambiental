@@ -73,7 +73,11 @@
 }</string>
      </property>
      <property name="currentIndex">
+<<<<<<< HEAD
       <number>3</number>
+=======
+      <number>0</number>
+>>>>>>> 54f67a0c6c850c9ca3d3adfa4ee7aad01b44ec22
      </property>
      <widget class="QWidget" name="page_login">
       <widget class="QFrame" name="frame_login_fundo">

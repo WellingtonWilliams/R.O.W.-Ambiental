@@ -31,12 +31,14 @@ class Principal(Ui_MainWindow, QMainWindow):
         # page_login
         self.frame_login_msg.hide()
         self.label_login_icone.setPixmap(QPixmap("img/user_icon.png"))
+        self.label_login_icone.setPixmap(QPixmap("src/img/user_icon.png"))
         self.pushButton_login_entrar.clicked.connect(self.realizar_login)
         self.pushButton_login_cadastrar.clicked.connect(self.acessar_cadastro_usuario)
         self.pushButton_login_fechar_msg.clicked.connect(self.frame_login_msg.hide)
 
         # page_principal
         self.label_principal_logo.setPixmap(QPixmap("img/logo_ROW_maior.png"))
+        self.label_principal_logo.setPixmap(QPixmap("src/img/logo_ROW_maior.png"))
         self.pushButton_principal_cliente.clicked.connect(self.acessar_cad_cliente)
         self.pushButton_principal_servicos.clicked.connect(self.acessar_cad_servicos)
         self.pushButton_principal_usuarios.clicked.connect(self.acessar_usuarios)
@@ -45,6 +47,7 @@ class Principal(Ui_MainWindow, QMainWindow):
         # page_cad_cliente
         self.frame_cad_cliente_msg.hide()
         self.label_cad_cliente_logo.setPixmap(QPixmap("img/logo_ROW_menor.png"))
+        self.label_cad_cliente_logo.setPixmap(QPixmap("src/img/logo_ROW_menor.png"))
         self.pushButton_cad_cliente_salvar.clicked.connect(self.salvar_cliente)
         self.pushButton_cad_cliente_lista.clicked.connect(self.acessar_list_cliente)
         self.pushButton_cad_cliente_voltar.clicked.connect(self.acessar_principal)
@@ -55,6 +58,7 @@ class Principal(Ui_MainWindow, QMainWindow):
         # page_list_cliente
         self.frame_list_cliente_msg.hide()
         self.label_list_cliente_logo.setPixmap(QPixmap("img/logo_ROW_menor.png"))
+        self.label_list_cliente_logo.setPixmap(QPixmap("src/img/logo_ROW_menor.png"))
         self.pushButton_list_cliente_alterar.clicked.connect(self.alterar_dados_cliente)
         self.pushButton_list_cliente_excluir.clicked.connect(self.excluir_cliente)
         self.pushButton_list_cliente_voltar.clicked.connect(self.acessar_principal)
@@ -65,6 +69,7 @@ class Principal(Ui_MainWindow, QMainWindow):
         # page_cad_servicos
         self.frame_cad_servicos_msg.hide()
         self.label_cad_servicos_logo.setPixmap(QPixmap("img/logo_ROW_menor.png"))
+        self.label_cad_servicos_logo.setPixmap(QPixmap("src/img/logo_ROW_menor.png"))
         self.pushButton_cad_servicos_salvar.clicked.connect(self.salvar_servico)
         self.pushButton_cad_servicos_listar.clicked.connect(self.acessar_list_servicos)
         self.pushButton_cad_servicos_voltar.clicked.connect(self.acessar_principal)
@@ -75,6 +80,7 @@ class Principal(Ui_MainWindow, QMainWindow):
         # page_list_servicos
         self.frame_list_servicos_msg.hide()
         self.label_list_servicos_logo.setPixmap(QPixmap("img/logo_ROW_menor.png"))
+        self.label_list_servicos_logo.setPixmap(QPixmap("src/img/logo_ROW_menor.png"))
         self.pushButton_list_servicos_alterar.clicked.connect(self.alterar_servico)
         self.pushButton_list_servicos_excluir.clicked.connect(self.excluir_servico)
         self.pushButton_list_servicos_voltar.clicked.connect(self.acessar_principal)
@@ -85,6 +91,7 @@ class Principal(Ui_MainWindow, QMainWindow):
         # page_cadastro_usuario
         self.frame_cad_usuario_msg.hide()
         self.label_cad_usuario_icone.setPixmap(QPixmap("img/user_icon.png"))
+        self.label_cad_usuario_icone.setPixmap(QPixmap("src/img/user_icon.png"))
         self.pushButton_cad_usuario_cadastrar.clicked.connect(self.cadastrar_usuario)
         self.pushButton_cad_usuario_sair.clicked.connect(self.sair)
         self.pushButton_cad_usuario_fechar_msg.clicked.connect(
@@ -94,6 +101,7 @@ class Principal(Ui_MainWindow, QMainWindow):
         # page_usuarios
         self.frame_usuarios_msg.hide()
         self.label_usuarios_logo.setPixmap(QPixmap("img/logo_ROW_menor.png"))
+        self.label_usuarios_logo.setPixmap(QPixmap("src/img/logo_ROW_menor.png"))
         self.pushButton_usuarios_alterar.clicked.connect(self.alterar_dados_usuario)
         self.pushButton_usuarios_excluir.clicked.connect(self.excluir_usuario)
         self.pushButton_usuarios_cadastrar.clicked.connect(
